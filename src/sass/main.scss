@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.title  {
+  margin: 40px;
+  font-size: 2.2rem;
+}
+
+.container  {
+  display: inline-block;
+}
+
+.employeeBox  {
+  display: inline-block;
+  width: 21%;
+  padding: 9px;
+  margin-bottom: 110px;
+}
+
+.image  {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.name  {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  border-bottom: 1px solid green;
+  margin-top: 20px;
+  padding-bottom: 3px;
+  display: inline;
+  //text-decoration: underline;
+  //text-decoration-color: green;
+}
+
+.email  {
+  color: lightgrey;
+  padding-top: 12px;
+}
+
+.street  {
+  margin-top: 22px;
+  color: grey;
+  font-family: 'Raleway', sans-serif;
+}
+
+.city-zip  {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 6px;
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+}
+
+.phone  {
+  margin-top: 10px;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.phone:hover  {
+  color: black;
+  text-shadow: none;
+}
