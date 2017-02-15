@@ -1,4 +1,4 @@
-import $ from 'jquery'
+import $ from 'jquery';
 $.ajax({
   url: 'https://randomuser.me/api/?results=12',
   dataType: 'json',
@@ -6,7 +6,6 @@ $.ajax({
 });
 
 function getEmployees (data)  {
-  console.log(data);
   data.results.forEach(function(object)  {
     var image = object.picture.large;
     var firstName = object.name.first;
